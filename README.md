@@ -1,7 +1,7 @@
 # Rocket-Engine-Simulation
 This project models the performance of a rocket engine as a function of altitude using Python. It computes important quantities such as ambient pressure, exit pressure, exit velocity, thrust, and specific impulse for different nozzle expansion ratios. 
 
-The goal of the project is to study how engine performance changes from sea level to near-vacuum conditions and how nozzle geometry affects thrust and efficiency.
+The goal of the project is to study how engine performance changes from sea level to near-vacuum conditions and how nozzle geometry affects thrust and efficiency. The current version uses Merlin-1D engine from Falcon-9, although the obtained results do not perfectly match with published values as there is not all data available. To run the simulation for your own engine, change #engine, #propellant and expansion ratios sections at the top of main.py.
 
 # Features
 
